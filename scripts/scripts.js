@@ -10,13 +10,13 @@ You are encouraged to use the provided naming convention for ease of review.
 /* create variables to hold the values for modelName and duration */
 
 // INSERT YOUR CODE HERE
-var modelName = document.getElementById("model-text");
-var durationValue = document.getElementById("duration-text");
-
 var XYZ = 100;
 var xyzText = "XYZ";
 var CPRG = 213;
 var cprgText = "CPRG";
+
+var modelName = xyzText, cprgText;
+var durationValue = XYZ, CPRG;
 
 /****************** helper function ******************/
 /* create a function called recalculate() which will
