@@ -61,8 +61,6 @@ var modelButton = document.getElementById("model-button");
 modelButton.addEventListener("click", changeModel, console.log("this was pressed model"));
 
 // INSERT YOUR CODE HERE
-
-var switched = document.getElementById("Switch Model");
 function changeModel() {
     if (modelName == xyzText) {
         modelName = cprgText;
